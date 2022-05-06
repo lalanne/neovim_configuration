@@ -34,11 +34,11 @@ return require('packer').startup(function(use)
     -- file explorer
     use {
         'scrooloose/nerdtree', 
-        on = 'NERDTreeToggle'
+        on = 'NERDTreeToggle',
+        requires =  'ryanoasis/vim-devicons',
     }
     use 'Xuyuanp/nerdtree-git-plugin'
     use 'tiagofumo/vim-nerdtree-syntax-highlight'
-    use 'ryanoasis/vim-devicons'
   
     use {
       'lewis6991/gitsigns.nvim',
@@ -79,10 +79,4 @@ return require('packer').startup(function(use)
       requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
     }
     use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
-
-  use {
-    'kyazdani42/nvim-tree.lua',
-    requires = 'kyazdani42/nvim-web-devicons',
-  }
-
 end)
