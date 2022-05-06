@@ -11,6 +11,7 @@ end
 vim.g.mapleader = ","
 
 require('general')
+
 -- include plugins and their config
 require('plugins')
 require('plug_config.treesitter')
