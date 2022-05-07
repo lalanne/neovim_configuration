@@ -2,8 +2,8 @@
 require('nvim-treesitter.configs').setup{
 
   ensure_installed = {'c', 'cpp', 'python', 'lua', 'typescript',
-                      'regex', 'bash', 'cmake', 'css', 'javascript',
-                      'html', 'comment', 'java', 'rust', 'go'},
+                      'regex', 'bash', 'cmake', 'javascript',
+                      'html', 'comment', 'go'},
   highlight = {
     enable = true,
     disable = {},

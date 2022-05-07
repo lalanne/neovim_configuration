@@ -2,6 +2,7 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     -- apperative plugins
+    use 'hrsh7th/vim-vsnip'
     use 'glepnir/dashboard-nvim'
   
     -- functional plugins
