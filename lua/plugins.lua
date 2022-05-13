@@ -77,6 +77,11 @@ return require('packer').startup(function(use)
     use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
 
     use {
+      'akinsho/nvim-bufferline.lua',
+      requires = 'kyazdani42/nvim-web-devicons'
+    }
+
+    use {
   'kdheepak/tabline.nvim',
   config = function()
     require'tabline'.setup {

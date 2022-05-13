@@ -31,6 +31,7 @@ require('plug_config.dashboard')
 require('plug_config.telescope')
 require('plug_config.tagbar')
 require('plug_config.nerdtree')
+require('plug_config.bufferline')
 
 
 require('bindings')
