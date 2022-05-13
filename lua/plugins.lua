@@ -42,13 +42,6 @@ return require('packer').startup(function(use)
     use 'tiagofumo/vim-nerdtree-syntax-highlight'
   
     use {
-      'lewis6991/gitsigns.nvim',
-      requires = {
-        'nvim-lua/plenary.nvim'
-      }
-    }
-  
-    use {
     'phaazon/hop.nvim',
     as = 'hop'
     }
