@@ -53,6 +53,8 @@ end
 
 -- Binding for code runner
 map('n', '<F5>', ':Run<CR>', { noremap = true, silent = true })
+
+-- Binding for terminal on nvim
 map('n', '<F1>', ':ToggleTerm<CR>', { noremap = true, silent = true })
 
 -- Other bindings nvimtree, markdown preview, Neoformat, Colorizer, LazyGit
