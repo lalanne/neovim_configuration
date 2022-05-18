@@ -1,3 +1,6 @@
+vim.keymap.set('n', 'gt', ':bnext<CR>')
+vim.keymap.set('n', 'gT', ':bprevious<CR>')
+
 require('bufferline').setup {
   options = {
     numbers = function(opts)
@@ -28,3 +31,4 @@ require('bufferline').setup {
 	sort_by = 'id',
 	}
 }
+
