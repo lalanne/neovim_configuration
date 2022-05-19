@@ -3,6 +3,7 @@ vim.keymap.set('n', 'gT', ':bprevious<CR>')
 
 require('bufferline').setup {
   options = {
+    mode = "tabs", -- set to "buffers" to only show buffers instead
     numbers = function(opts)
 		return string.format('%s.', opts.ordinal)
 	  end,
@@ -22,13 +23,13 @@ require('bufferline').setup {
     end,
 	offsets = { { filetype = 'NvimTree', text_align = 'left' } },
 	show_buffer_icons = true,
-	show_buffer_close_icons = false,
+	show_buffer_close_icons = true,
 	show_close_icon = false,
 	show_tab_indicators = true,
-	persist_buffer_sort = true,
+	persist_buffer_sort = false,
 	enforce_regular_tabs = true,
-	always_show_bufferline = false,
-	sort_by = 'id',
+	always_show_bufferline = true,
+	sort_by = 'tabs',
 	}
 }
 
