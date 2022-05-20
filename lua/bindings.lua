@@ -23,7 +23,7 @@ map('n', '<Leader>bb', ':BraceyStop<CR>', { noremap = true, silent = true })
 map('n', '<Leader>bbb', ':BraceyReload<CR>', { noremap = true, silent = true })
 
 -- Bufferline bindings
-map('n', 'f', ':BufferLinePick<CR>', { noremap = true, silent = true })
+-- map('n', 'f', ':BufferLinePick<CR>', { noremap = true, silent = true })
 map('n', 'F', ':BufferLinePickClose<CR>', { noremap = true, silent = true })
 map('n', '<TAB>', ':BufferLineCycleNext<CR>', { noremap = true, silent = true })
 map('n', '<S-TAB>', ':BufferLineCyclePrev<CR>', { noremap = true, silent = true })
