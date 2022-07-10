@@ -23,6 +23,9 @@ return require('packer').startup(function(use)
     use 'terrortylor/nvim-comment'
     use {'turbio/bracey.vim', run = 'cd app & npm install --prefix server'}
     use 'sbdchd/neoformat'
+    --javascript
+    use "jose-elias-alvarez/null-ls.nvim"
+    use "jose-elias-alvarez/nvim-lsp-ts-utils"
     --golang
     use 'fatih/vim-go'
     -- symbols bar
