@@ -35,6 +35,9 @@ return require('packer').startup(function(use)
     use 'airblade/vim-gitgutter'
     -- themes
     use 'gruvbox-community/gruvbox'
+    -- cpp 
+    use 'rhysd/vim-clang-format'
+    use 'vim-scripts/a.vim'
     -- file explorer
     use {
         'scrooloose/nerdtree', 
