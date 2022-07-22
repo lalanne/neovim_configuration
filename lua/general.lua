@@ -8,8 +8,8 @@ vim.opt['smarttab'] = true
 vim.opt['expandtab'] = true
 vim.opt['smartindent'] = true
 vim.opt['autoindent'] = true
-vim.opt['tabstop'] = 4
-vim.opt['shiftwidth'] = 4
+vim.o.tabstop = 2
+vim.o.shiftwidth = 2
 vim.opt['autoread'] = true
 vim.opt['title'] = true
 vim.opt['termguicolors'] = true
@@ -21,6 +21,8 @@ vim.opt['showmode'] = false
 vim.opt['clipboard'] = 'unnamedplus'
 vim.opt['swapfile'] = false
 vim.opt['colorcolumn'] = '90'
+vim.o.ignorecase = true
+vim.o.lazyredraw = true
 -- Persistent undo
 -- mkdir $HOME/.vim/undo
 vim.opt['undofile'] = true
