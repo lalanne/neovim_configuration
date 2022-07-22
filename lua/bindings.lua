@@ -57,12 +57,9 @@ map('n', '<F5>', ':Run<CR>', { noremap = true, silent = true })
 -- Binding for terminal on nvim
 map('n', '<F1>', ':ToggleTerm<CR>', { noremap = true, silent = true })
 
--- Other bindings nvimtree, markdown preview, Neoformat, Colorizer, LazyGit
-map('n', '<F7>', ':NvimTreeToggle<CR>', {silent = true })
-map('n', '<leader>md', ':MarkdownPreviewToggle<CR>', {silent = true })
+-- Other bindings Neoformat, Colorizer
 map('n', '<Leader>p', ':Neoformat<CR>', { noremap = true, silent = true })
 map('n', '<Leader>cc', ':ColorizerToggle<CR>', { noremap = true, silent = true })
-map('n', '<Leader>gg', ':LazyGit<CR>', { noremap = true, silent = true })
 map('n', '<Leader>n', ':enew<CR>', { noremap = true, silent = true })
 map('n', '<Leader><Space>', ':noh<CR>', { noremap = true, silent = true })
 map('n', '<Leader>[', ':vertical resize +7<CR>', { noremap = true, silent = true })
