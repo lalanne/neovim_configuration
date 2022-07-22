@@ -2,8 +2,8 @@
 vim.opt['relativenumber'] = true
 vim.opt['number'] = true
 vim.opt['ruler'] = true
-vim.opt['splitright'] = true
-vim.opt['splitbelow'] = true
+vim.o.splitright = true
+vim.o.splitbelow = true
 vim.opt['smarttab'] = true
 vim.opt['expandtab'] = true
 vim.opt['smartindent'] = true
