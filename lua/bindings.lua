@@ -31,8 +31,8 @@ map('n', 'm.', ':BufferLineMoveNext<CR>', { noremap = true, silent = true })
 map('n', 'm,', ':BufferLineMovePrev<CR>', { noremap = true, silent = true })
 
 -- Hope bindings
-map('n', ';j', ':HopWord<CR>', { noremap = true, silent = true })
-map('n', ';l', ':HopLineStart<CR>', { noremap = true, silent = true })
+--map('n', ';j', ':HopWord<CR>', { noremap = true, silent = true })
+--map('n', ';l', ':HopLineStart<CR>', { noremap = true, silent = true })
 
 -- LSP Diagnostics Toggle bindings
 map('n', '<Leader>dd', ':ToggleDiag<CR>', { noremap = true, silent = true })

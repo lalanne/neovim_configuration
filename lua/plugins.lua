@@ -47,10 +47,10 @@ return require('packer').startup(function(use)
     use 'Xuyuanp/nerdtree-git-plugin'
     use 'tiagofumo/vim-nerdtree-syntax-highlight'
   
-    use {
-    'phaazon/hop.nvim',
-    as = 'hop'
-    }
+    --use {
+    --'phaazon/hop.nvim',
+    --as = 'hop'
+    --}
   
     use {
       'p00f/cphelper.nvim',
