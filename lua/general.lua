@@ -1,6 +1,6 @@
 -- General config
-vim.opt['relativenumber'] = true
-vim.opt['number'] = true
+vim.o.relativenumber = true
+vim.o.number = true
 vim.opt['ruler'] = true
 vim.o.splitright = true
 vim.o.splitbelow = true
