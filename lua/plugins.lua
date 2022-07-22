@@ -4,7 +4,6 @@ return require('packer').startup(function(use)
     -- apperative plugins
     use 'hrsh7th/vim-vsnip'
     use 'glepnir/dashboard-nvim'
-  
     -- functional plugins
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/cmp-nvim-lsp'
@@ -40,18 +39,16 @@ return require('packer').startup(function(use)
     use 'vim-scripts/a.vim'
     -- file explorer
     use {
-        'scrooloose/nerdtree', 
+        'scrooloose/nerdtree',
         on = 'NERDTreeToggle',
         requires =  'ryanoasis/vim-devicons',
     }
     use 'Xuyuanp/nerdtree-git-plugin'
     use 'tiagofumo/vim-nerdtree-syntax-highlight'
-  
     --use {
     --'phaazon/hop.nvim',
     --as = 'hop'
     --}
-  
     use {
       'p00f/cphelper.nvim',
       requires = {
@@ -60,7 +57,6 @@ return require('packer').startup(function(use)
         opt = true
       }
     }
-  
     use {
       'hoob3rt/lualine.nvim',
       requires = {
@@ -68,7 +64,6 @@ return require('packer').startup(function(use)
         opt = true
       }
     }
-  
     use {
       'nvim-telescope/telescope.nvim',
       requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
