@@ -20,7 +20,6 @@ return require('packer').startup(function(use)
     use 'norcalli/nvim-colorizer.lua'
     use 'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'
     use 'terrortylor/nvim-comment'
-    use {'turbio/bracey.vim', run = 'cd app & npm install --prefix server'}
     use 'sbdchd/neoformat'
     --javascript
     use "jose-elias-alvarez/null-ls.nvim"

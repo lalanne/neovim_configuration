@@ -17,11 +17,6 @@ map('n', '<Leader>f', ':lua _find_files()<CR>', { noremap = true, silent = true 
 map('n', '<Leader>o', ':Telescope oldfiles<CR>', { noremap = true, silent = true })
 map('n', '<Leader>s', ':Telescope live_grep<CR>', { noremap = true, silent = true })
 
--- Bracey bindings
-map('n', '<Leader>b', ':Bracey<CR>', { noremap = true, silent = true })
-map('n', '<Leader>bb', ':BraceyStop<CR>', { noremap = true, silent = true })
-map('n', '<Leader>bbb', ':BraceyReload<CR>', { noremap = true, silent = true })
-
 -- Bufferline bindings
 -- map('n', 'f', ':BufferLinePick<CR>', { noremap = true, silent = true })
 map('n', 'F', ':BufferLinePickClose<CR>', { noremap = true, silent = true })
