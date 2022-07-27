@@ -16,6 +16,7 @@ end
 map('n', '<Leader>f', ':lua _find_files()<CR>', { noremap = true, silent = true })
 map('n', '<Leader>o', ':Telescope oldfiles<CR>', { noremap = true, silent = true })
 map('n', '<Leader>s', ':Telescope live_grep<CR>', { noremap = true, silent = true })
+map('n', '<Leader>b', ':Telescope buffers<CR>', { noremap = true, silent = true })
 
 -- Bufferline bindings
 -- map('n', 'f', ':BufferLinePick<CR>', { noremap = true, silent = true })
