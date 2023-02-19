@@ -34,6 +34,7 @@ require('plug_config.nerdtree')
 require('plug_config.bufferline')
 require('plug_config.nullls')
 require('plug_config.clangformat')
+require('plug_config.vimgo')
 
 
 require('bindings')
