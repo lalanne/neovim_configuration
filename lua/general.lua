@@ -12,7 +12,8 @@ vim.o.tabstop = 2
 vim.o.shiftwidth = 2
 vim.opt['autoread'] = true
 vim.opt['title'] = true
-vim.o.termguicolors = true
+-- ubuntu 22.04 = false, macos = true
+vim.o.termguicolors = false
 vim.opt['hlsearch'] = true
 vim.opt['hidden'] = true
 vim.opt['encoding'] = 'utf-8'
